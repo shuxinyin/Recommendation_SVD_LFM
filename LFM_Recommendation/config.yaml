@@ -1,0 +1,13 @@
+# data parameter
+data_path: ../data/movie_lens_1m/ratings.csv
+
+
+
+# train parameter
+gpu: "0"
+epochs: 64
+batch_size: 256
+lr: 5e-4
+emb_dim: 128
+negative_ratio: 200
+
